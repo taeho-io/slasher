@@ -14,7 +14,7 @@ require (
 	github.com/sirupsen/logrus v1.4.0
 	github.com/stretchr/testify v1.3.0
 	github.com/taeho-io/go-taeho v0.0.0-20190304052610-4b79aa9ad7bc
-	github.com/taeho-io/idl v0.0.0-20190401234037-fd230a5242ee
+	github.com/taeho-io/idl v0.0.0-20190401235236-74441878a163
 	github.com/xissy/slasher v0.0.0-20190327203713-6eafc534fed9
 	golang.org/x/net v0.0.0-20190301231341-16b79f2e4e95
 	google.golang.org/grpc v1.19.0

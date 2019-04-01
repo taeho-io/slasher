@@ -1,10 +1,10 @@
 FROM golang:1.12.0 as golang
-WORKDIR /auth
+WORKDIR /slasher
 COPY . .
 RUN go mod download
-WORKDIR /auth/cmd
-RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -a -installsuffix cgo -ldflags="-w -s" -o /go/bin/auth
-WORKDIR /auth
+WORKDIR /slasher/cmd
+RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -a -installsuffix cgo -ldflags="-w -s" -o /go/bin/slasher
+WORKDIR /slasher
 ARG test
 RUN if [ "$test" = "true" ] ; then curl -sfL https://install.goreleaser.com/github.com/golangci/golangci-lint.sh | sh -s -- -b $(go env GOPATH)/bin v1.12.4 ; fi
 RUN if [ "$test" = "true" ] ; then make lint ; fi
