@@ -117,7 +117,7 @@ spec:
   http:
     - match:
         - uri:
-            prefix: /slasher/slash
+            prefix: /v1/slasher/slash
       route:
         - destination:
             host: slasher
