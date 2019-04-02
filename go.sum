@@ -49,8 +49,8 @@ github.com/stretchr/testify v1.3.0 h1:TivCn/peBQ7UY8ooIcPgZFpTNSz0Q2U6UrFlUfqbe0
 github.com/stretchr/testify v1.3.0/go.mod h1:M5WIy9Dh21IEIfnGCwXGc5bZfKNJtfHm1UVUgZn+9EI=
 github.com/taeho-io/go-taeho v0.0.0-20190304052610-4b79aa9ad7bc h1:HtxA87t6+LN8PL93HuC9+dKFB8hRSycSonW9V3BGa0w=
 github.com/taeho-io/go-taeho v0.0.0-20190304052610-4b79aa9ad7bc/go.mod h1:DSxhG0YqDDQw7qd1xU73xvjKENTQ+6lu1R+DI0FEKOY=
-github.com/taeho-io/idl v0.0.0-20190401235236-74441878a163 h1:CSBIi2YQZg45w/gqyhweQG3tVw7Pud28C4qQCJuqCDM=
-github.com/taeho-io/idl v0.0.0-20190401235236-74441878a163/go.mod h1:t9N40bU9/tauxwLTeDjVhqjqUYQBQWGWj9Xg53kWSp0=
+github.com/taeho-io/idl v0.0.0-20190402001023-2c9045047c33 h1:OrRsIGMBWFSplf5EBfc70LOzw3aCwuKmDGh3N2+mNbg=
+github.com/taeho-io/idl v0.0.0-20190402001023-2c9045047c33/go.mod h1:t9N40bU9/tauxwLTeDjVhqjqUYQBQWGWj9Xg53kWSp0=
 github.com/xissy/slasher v0.0.0-20190327203713-6eafc534fed9 h1:U+PPyQXdefwvV+PHC/epoqkYx74y1DfuFYFLvRLHr1k=
 github.com/xissy/slasher v0.0.0-20190327203713-6eafc534fed9/go.mod h1:txboG+jDlk/ESrnnUT3bXbOxCcQ6edDW6ARjP12Xb1E=
 golang.org/x/crypto v0.0.0-20180904163835-0709b304e793 h1:u+LnwYTOOW7Ukr/fppxEb1Nwz0AtPflrblfvUudpo+I=
